@@ -1106,4 +1106,4 @@ Finally we export the dataframe to a CSV file for later processing it in Power B
 
 # Conclusions
 
-**Customer segmentation** with the **RFM** methodology in sales is an effective way to help employees to focus their efforts by **targeting customers on a priority basis** and taking different actions on them. This kind of project **flexible** as the number of segments can be adapted to the business needs, and the period of time in the analysis can be extended or reduced as well. The use of Power BI to **share** the dashboard to colleagues in an enterprise environment as a web app is very convenient for companies already working in the Microsoft ecosystem.
+**Customer segmentation** with the **RFM** methodology in sales is an effective way to help employees to focus their efforts by **targeting customers on a priority basis** and taking different actions on them. This kind of project **flexible** as the number of segments can be adapted to the business needs, and the period of time in the analysis can be extended or reduced as well.

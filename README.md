@@ -1,24 +1,4 @@
-# Customer Segmentation with RFM Analysis, using Python and Power BI
-
-![Header](https://raw.githubusercontent.com/daniel-isidro/customer_segmentation/main/media/header.jpg)
-<p style="font-size:8px;"><a href='https://www.freepik.com/vectors/business'>Illustration by vectorjuice - www.freepik.com</a></p>
-
-# Table of Contents
-
-[Introduction](#introduction) <br>
-[Methodology](#methodology) <br>
-[Requirements](#requirements) <br>
-[Execution Guide](#execution-Guide) <br>
-[Data Acquisition](#data-acquisition) <br>
-[Data Preparation](#data-preparation) <br>
-[Raw Data Description](#raw-data-description) <br>
-[Data Exploration](#data-exploration) <br>
-[Modeling](#modeling) <br>
-[Summary](#summary) <br>
-[Front-end](#front-end) <br>
-[Conclusions](#conclusions) <br>
-[References](#references) <br>
-[About Me](#about-me)
+# Customer Segmentation with RFM Analysis, using Python
 
 # Introduction
 
@@ -28,15 +8,13 @@ While working in a company that serves goods to thousands of customers in severa
 
 This project focuses on doing RFM analysis on company sales and creating a **data visualization dashboard** showcasing **customer segmentation** that I can share with colleagues in the countries.
 
-![Customer Segmentation Small](https://github.com/daniel-isidro/customer_segmentation/blob/main/media/customer_segmentation_small.png?raw=true)
-
 # Methodology
 
 Using a dataset that contains **sales orders** in a period of time, we will use **Python** to obtain the **frequency, recency** and **monetary** values in the last 365 days per customer. Later with those values we will give **R, F, and M scores** to each customer, that will allow us to cluster them in different **segments**.
 
 # Requirements
 
-We'll use the [Google Colaboratory](https://colab.research.google.com/) Jupyter notebook environment (free), with Python 3.7 or higher, and [Microsoft Power BI Desktop](https://powerbi.microsoft.com/en-us/downloads/) application (free download, Windows only).
+We'll use the Jupyter notebook environment, with Python 3.7 or higher
 
 ### Python packages
 
@@ -47,17 +25,9 @@ We'll use the [Google Colaboratory](https://colab.research.google.com/) Jupyter 
 * dataprep
 * matplotlib
 
-# Execution Guide
-
-For replicating the project, please execute the following steps in order:
-
-1. **[Jupyter notebook](https://github.com/daniel-isidro/customer_segmentation/blob/main/code/customer_segmentation_asia.ipynb)**. Running this notebook the data will be explored, prepared, and the RFM segmentation will be performed. The output will be a [CSV file](https://github.com/daniel-isidro/customer_segmentation/blob/main/output/rfm_asia.csv).
-
-2. **[Power BI file](https://github.com/daniel-isidro/customer_segmentation/blob/main/output/customer_segmentation.pbix)**. This is a file that processes the CSV file obtained in the previous step and presents it as a dashboard so it can be leveraged for business actions in the countries.
-
 # Data Acquisition
 
-Data has been obtained from **real sales orders** in 18 countries in a period of around 2 years. Some features (country names, customer id and revenue), have been altered in order to preserve privacy. Number of orders, units and dates have not been modified. It is acquired as a [CSV file](https://raw.githubusercontent.com/daniel-isidro/customer_segmentation/main/data/sales_asia.csv).
+Data has been obtained from **real sales orders** in 18 countries in a period of around 2 years. Some features (country names, customer id and revenue), have been altered in order to preserve privacy. Number of orders, units and dates have not been modified.
 
 # Data Preparation
 

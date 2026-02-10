@@ -1,4 +1,4 @@
-# Customer Segmentation with RFM Analysis, using Python
+# Customer-Segmentation-Churn-Indicator-Detection
 
 # Introduction
 

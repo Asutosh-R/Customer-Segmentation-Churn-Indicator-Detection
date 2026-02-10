@@ -1102,38 +1102,8 @@ Finally we export the dataframe to a CSV file for later processing it in Power B
 
 `rfm.to_csv('rfm_asia.csv', encoding='utf-8', index=False, float_format='%.2f')`
 
-# Front-end
 
-The front-end of this project consists in a **Power BI dashboard** that processes the CSV resulting from executing the previous Python code, and visualizes the results in a pleasing dashboard. That dashboard then can be shared with multiple colleagues in the different countries of the company. You can access that file [here](https://github.com/daniel-isidro/customer_segmentation/blob/main/output/customer_segmentation.pbix) for exploring it.
-
-![Customer Segmentation](https://github.com/daniel-isidro/customer_segmentation/blob/main/media/customer_segmentation.png?raw=true)
-
-![RFM Analysis](https://github.com/daniel-isidro/customer_segmentation/blob/main/media/rfm_analysis.png?raw=true)
-
-We observe that a lot of our customers (32 %) are **lost** or **hibernating** (they have a few orders from long ago). However, 28 % of our customers are either **champions** or **loyal customers**, meaning they spend the most and frequently. A segment to take care is **can't lose**, second segment with highest revenue, comprised of customers who used to spend a lot but have not returned in a while.
-
-### User Manual
-
-We can share the dashboard with our country sales managers so they can be **guided to the customer id's on the different segments** and **take specific actions on them**. Let's view an example: my Chinese colleague needs to be guided on what customers to contact next to **improve customer retention** or to **increase sales**. They would just need to open this dashboard, click on country (top right) and then on customer segment **need attention** or **at risk**, to have a specific list of customers, ordered by revenue spent in the last 365 days. (An unedited dataset would also include customer names and contact details, which in this case have been omitted for privacy reasons).
-
-![Country - Need Attention](https://github.com/daniel-isidro/customer_segmentation/blob/main/media/cs_cn_need_attention.png?raw=true)
-
-![Country - At Risk](https://github.com/daniel-isidro/customer_segmentation/blob/main/media/cs_cn_at_risk.png?raw=true)
-
-A **reference guide** to the 11 segments and suggested actions per segment is included in the last tab of the dashboard.
-
-![Reference](https://github.com/daniel-isidro/customer_segmentation/blob/main/media/reference.png?raw=true)
 
 # Conclusions
 
 **Customer segmentation** with the **RFM** methodology in sales is an effective way to help employees to focus their efforts by **targeting customers on a priority basis** and taking different actions on them. This kind of project **flexible** as the number of segments can be adapted to the business needs, and the period of time in the analysis can be extended or reduced as well. The use of Power BI to **share** the dashboard to colleagues in an enterprise environment as a web app is very convenient for companies already working in the Microsoft ecosystem.
-
-# References
-
-[**Guillaume Martin** - RFM Segmentation with Python](https://guillaume-martin.github.io/rfm-segmentation-with-python.html)
-
-[**Google Cloud** - Predicting Customer Lifetime Value with AI Platform](https://cloud.google.com/architecture/clv-prediction-with-offline-training-intro#overview)
-
-# About Me
-
-[Daniel Isidro](https://www.linkedin.com/in/daniel-isidro/)
